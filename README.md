@@ -8,10 +8,10 @@ To write a program to predict the marks scored by a student using the simple lin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Get the independent variable X and dependent variable Y.
+2. Plot the independent variable X and dependent variable Y
+3. predict the values
+4. plot the predicted values 
 
 ## Program:
 ```
