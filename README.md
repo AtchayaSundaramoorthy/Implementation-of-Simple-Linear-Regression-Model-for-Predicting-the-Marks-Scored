@@ -43,12 +43,31 @@ plt.scatter(df['x'],df['y'])
 plt.xlabel('x')
 plt.ylabel('y')
 plt.plot(x_train,lr.predict(x_train),color='red')
+lr.coef_
+lr.intercept_
 
 ```
 
 ## Output:
-![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393516/6c1f5bce-3443-4dc3-a5c4-dbeb77db1607)
+1)HEAD:
 
+![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393516/064cafb6-3d51-4565-9b7d-050ce3bc848d)
+
+2)GRAPH OF PLOTTED DATA:
+
+![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393516/c62c89a9-8085-4636-8e00-3cb841ffc87a)
+
+3)TRAINED DATA
+
+![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393516/23ccdf12-5959-4b98-94f2-d6459de4cf6e)
+
+4)LINE OF REGRESSION:
+
+![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393516/c898f6a3-5d12-430b-9995-abd2a78797bd)
+
+5)COEFFICIENT AND INTERCEPT VALUES:
+
+![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119393516/7490163c-3ec2-43fa-a582-3f65ba402412)
 
 
 ## Result:
